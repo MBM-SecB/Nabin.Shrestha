@@ -2,7 +2,7 @@ using System;
 
 class SelectionStatement
 {
-    static void Main1221()
+    static void Main435()
     {
         SelectionStatement ss = new SelectionStatement();
         ss.LearnIfElse();

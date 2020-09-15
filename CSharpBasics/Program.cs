@@ -1,13 +1,12 @@
 ﻿using System;
 
-namespace CSharpBasics
+namespace Assignment
 {
     class Program
     {
-        static void Main122(string[] args)
+        static void Main121(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.Write("Hello World!!");
         }
     }
 }
