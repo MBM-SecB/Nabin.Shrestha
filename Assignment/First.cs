@@ -2,7 +2,7 @@ using System;
 
 class First
 {
-    static void main()
+    static void main121()
     {
         First zz = new First();
         zz.First12();

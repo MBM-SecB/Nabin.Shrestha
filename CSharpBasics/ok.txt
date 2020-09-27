@@ -1,0 +1,23 @@
+using System;
+using System.IO;
+class CreatingNepal
+{
+    public void FolderNepal()
+    {
+        string folderPath;
+        folderPath = "Nepal";
+        Directory.CreateDirectory(folderPath);
+        folderPath = @"E:\Computer Science\.Net Centric Computing\Lab\Nabin.Shrestha\CSharpBasics\Nepal\";
+        for(int i = 0; i<10; i++)
+        {
+            Console.WriteLine("Enter 10 different subfolder names:");
+            string[] fileName = new string[10];
+            fileName[i] = Console.ReadLine();
+            Directory.CreateDirectory($"{folderPath}{fileName[i]}");
+            
+
+        }
+    }
+
+}
+
