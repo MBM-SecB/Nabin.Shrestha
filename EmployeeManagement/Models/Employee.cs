@@ -1,8 +1,13 @@
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 public class Employee
 {
+    [Required(ErrorMessage = "We need First Name")]
+    [Display(Name = "First Name")]
     public string FirstName { get; set; }
+
+    [Display(Name = "Last Name")]
     public string Surname { get; set; }
     public string Address { get; set; }
     public char Gender { get; set; } = 'M';
